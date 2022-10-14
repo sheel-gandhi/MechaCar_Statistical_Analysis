@@ -8,7 +8,7 @@ Jeremy with his vast experience and exhausted knowledge of Cars, has been select
 
 ## Results
 
-###Linear Regression to Predict MPG
+### Linear Regression to Predict MPG
 
 MechaCar prototype production is dependent on multiple metrics such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance. A Linear Regression was run to predict the main factors which affects MPG the most. 
 
@@ -46,4 +46,19 @@ T-Test performed on individual lots showed that lot 1 and 2 with a p-values of 1
 
 ## Study Design: MechaCar vs Competition
 
+Running a study on MechaCar vs its Competitors, we should consider metrics such as performance rating, highway drive performance, fuel efficency (city and highway), horsepower, safety rating, color, and cost. 
 
+Following points will cover the scope of our study design
+
+**What metric or metrics are you going to test?** 
+The top metric that we are going to test will be safety rating followed by fuel efficiency. 
+
+**What is the null hypothesis or alternative hypothesis?**
+For the safety rating metric, the null hypothesis would be that there is no statistical difference in means for safety rating when comparing different cars (mean = 0) Significance level is set at 0.05. Alternative hypothesis would be that there is a statistical difference. 
+For fuel efficiency, null hypothesis would be that there is no statistical difference in fuel efficency when different cars are compared and significance level is set at 0.05 Alternative hypothesis would be that there is statistical difference and that changing the cars will impact the consumption of fuel and thereby overall spending budget of a customer.
+
+**What statistical test would you use to test the hypothesis? And why?**
+We shall be using multiple regression to thes the hypothesis as it will help in analysing both the key metrics at one time. We can also know which metric will have a higher impact and based on that more data can be added to improve the study results.
+
+**What data is needed to run the statistical test?**
+For running the multiple regression test, we would require safety ratings and fuel efficiency (city and highway) data from MechaCar and across competitors. 
