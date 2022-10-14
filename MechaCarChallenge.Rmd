@@ -22,7 +22,7 @@ library(tidyverse)
 ```
 
 ```{r}
-mechaCar <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
+mechaCar <- read.csv(file='MechaCar_mpg.csv')
 ```
 
 ```{r}
@@ -31,6 +31,22 @@ lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AW
 
 ```{r}
 summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data = mechaCar))
+```
+
+```{r}
+model <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,mechaCar) #create linear model
+```
+
+```{r}
+```
+
+```{r}
+install.packages("car")
+```
+
+```{r}
+library(car) 
+avPlots(model, layout=c(2,3), marginal.scale=FALSE)
 ```
 
 ```{r}
