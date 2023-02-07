@@ -2,9 +2,24 @@
 
 MechaCar production analysis using R
 
-## Overview
+## Purpose
 
-Jeremy with his vast experience and exhausted knowledge of Cars, has been selected as the primary analyst by AutosRUs for retrospective analysis on historical data, analytical verification and validation of current automotive specification and study design of future product testing. Jeremy has to make sure that his analysis contains statistical backbone, quantitative metric and clear interpretation. Based on the results, a proposal will be made on study design, hypothesis and analysis workflow in roder to make manufacturing process even better. We used R, RStudio and tidyverse/deplyr package for analysis.
+* **Load, clean up, and reshape datasets using tidyverse in R.**
+* **Visualize datasets with basic plots such as line, bar, and scatter plots using ggplot2.**
+* **Generate and interpret more complex plots such as boxplots and heatmaps using ggplot2.**
+* **Plot and identify distribution characteristics of a given dataset.**
+* **Formulate null and alternative hypothesis tests for a given data problem.**
+* **Implement and evaluate simple linear regression and multiple linear regression models for a given dataset.**
+* **Implement and evaluate the one-sample t-Tests, two-sample t-Tests, and analysis of variance (ANOVA) models for a given dataset.**
+* **Implement and evaluate a chi-squared test for a given dataset.**
+* **Identify key characteristics of A/B and A/A testing.**
+* **Determine the most appropriate statistical test for a given hypothesis and dataset.Overview**
+
+## Project OVerview
+
+Jeremy with his vast experience and exhausted knowledge of Cars, has been selected as the primary analyst by AutosRUs for retrospective analysis on historical data, analytical verification and validation of current automotive specification and study design of future product testing. Jeremy has to make sure that his analysis contains statistical backbone, quantitative metric and clear interpretation. Based on the results, a proposal will be made on study design, hypothesis and analysis workflow in roder to make manufacturing process even better. 
+
+We used R, RStudio and tidyverse/deplyr package for analysis.
 
 ## Results
 
